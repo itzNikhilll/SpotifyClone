@@ -9,14 +9,14 @@ let songItem = Array.from(document.getElementsByClassName('songItem'))
 let songItemPlay = document.getElementsByClassName('songItemPlay')
 
 let songs = [
-    {songName: "Alone - Alan Walker", filePath: "songs/1.m4a", coverPath: "covers/1.jpg"},
-    {songName: "Darkside - Alan Walker", filePath: "songs/2.m4a", coverPath: "covers/1.jpg"},
-    {songName: "Headlights - Alan Walker", filePath: "songs/3.m4a", coverPath: "covers/1.jpg"},
-    {songName: "Heat Waves - Glass Animals", filePath: "songs/4.m4a", coverPath: "covers/1.jpg"},
-    {songName: "Hello World - Alan Walker", filePath: "songs/5.m4a", coverPath: "covers/1.jpg"},
-    {songName: "Ignite - Alan Walker", filePath: "songs/6.m4a", coverPath: "covers/1.jpg"},
-    {songName: "Infinity - Jaymes Young", filePath: "songs/7.m4a", coverPath: "covers/1.jpg"},
-    {songName: "Sing Me to Sleep - Alan Walker", filePath: "songs/8.m4a", coverPath: "covers/1.jpg"},
+    {songName: "Alone - Alan Walker", filePath: "songs/1.m4a", coverPath: "covers/1.png"},
+    {songName: "Darkside - Alan Walker", filePath: "songs/2.m4a", coverPath: "covers/2.png"},
+    {songName: "Headlights - Alan Walker", filePath: "songs/3.m4a", coverPath: "covers/3.jpg"},
+    {songName: "Heat Waves - Glass Animals", filePath: "songs/4.m4a", coverPath: "covers/4.png"},
+    {songName: "Hello World - Alan Walker", filePath: "songs/5.m4a", coverPath: "covers/5.png"},
+    {songName: "Ignite - Alan Walker", filePath: "songs/6.m4a", coverPath: "covers/6.png"},
+    {songName: "Infinity - Jaymes Young", filePath: "songs/7.m4a", coverPath: "covers/7.jpg"},
+    {songName: "Sing Me to Sleep - Alan Walker", filePath: "songs/8.m4a", coverPath: "covers/8.png"},
 ]
 
 songItem.forEach((element, i) => {
