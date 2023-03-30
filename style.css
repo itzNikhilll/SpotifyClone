@@ -87,7 +87,7 @@ nav ul li{
     border-radius: 34px;
 }
 .timestamp{
-    margin: 0 23px;
+    margin: 0 7px;
 }
 
 .timestamp i{
@@ -105,4 +105,18 @@ nav ul li{
 .songInfo img{
     opacity: 0;
     transition: opacity 0.4s ease-in;
+}
+
+.songItemPlay{
+    margin-right: 16px;
+}
+.songItemPlay:hover {
+    cursor: pointer;
+  }
+#masterSongName{
+    margin-left: 14px;
+}
+.duration{
+    position: absolute;
+    right: 145px;
 }
